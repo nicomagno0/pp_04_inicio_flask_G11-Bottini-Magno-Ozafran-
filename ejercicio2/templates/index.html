@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Datos HDI</title>
+
+</head>
+  <nav id=uno>
+    <a href="{{ url_for('index') }}">Inicio</a>
+    <a href="{{ url_for('listado') }}">Listado</a>
+    <a href="{{ url_for('listadoTotal') }}">Listado total</a>
+    <a href="{{ url_for('listadoPorPais') }}">Listado por pais</a>
+    <a href="{{ url_for('acercaDe') }}">Acerca de</a>
+
+</nav>
+<body>
+{% block titulo %}{% endblock %}
+{% block contenido %}{% endblock %}
+</body>
+</html>
+
+
